@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0a1020"><meta name="description" content="AETHER institutional investment intelligence platform">
+<link rel="manifest" href="manifest.json"><link rel="stylesheet" href="styles.css">
+<title>AETHER AutoTrader | Investment Intelligence</title>
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar">
+    <div class="brand"><div class="brand-mark">A</div><div><b>AETHER</b><small>INVESTMENT INTELLIGENCE</small></div></div>
+    <div class="section-label">WORKSPACE</div>
+    <nav id="nav">
+      <button class="nav-item active" data-view="overview">◫ <span>Overview</span></button>
+      <button class="nav-item" data-view="portfolio">▤ <span>Portfolio</span></button>
+      <button class="nav-item" data-view="institutional">▦ <span>Institutional</span></button>
+      <button class="nav-item" data-view="markets">⌁ <span>Markets</span></button>
+      <button class="nav-item" data-view="risk">◈ <span>Risk analytics</span></button>
+      <button class="nav-item" data-view="quant">⌘ <span>Quant research</span></button>
+      <button class="nav-item" data-view="autotrader">⇄ <span>AutoTrader</span></button>\n      <button class="nav-item" data-view="trading">▣ <span>Legacy simulator</span></button>
+    </nav>
+    <div class="sidebar-bottom"><span class="dot"></span> Demo environment <small>v1.0.0 · India edition</small></div>
+  </aside>
+  <main class="main">
+    <header class="topbar"><button id="menuBtn" class="mobile-menu">☰</button><div><div class="eyebrow">INDIA · INSTITUTIONAL WORKSPACE</div><h1 id="pageTitle">Overview</h1></div><div class="top-right"><span class="demo-pill">● DEMO DATA</span><div class="avatar">A</div></div></header>
+    <div class="notice">DEMO MODE — All prices, holdings and performance figures are simulated. Not connected to NSE, BSE or a broker.</div>
+    <section id="view" class="view"></section>
+    <footer>AETHER v1.0.0 <span>For research and simulation only · Not investment advice</span></footer>
+  </main>
+</div>
+<script src="app.js"></script>
+</body></html>

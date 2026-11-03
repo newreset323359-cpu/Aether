@@ -1,0 +1,10 @@
+{
+  "name": "AETHER Investment Intelligence",
+  "short_name": "AETHER",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#080e1b",
+  "theme_color": "#0a1020",
+  "description": "India-first institutional investment research terminal",
+  "icons": []
+}
